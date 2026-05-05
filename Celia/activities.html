@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities</title>
+
+<style>
+body {font-family: Arial; margin:0;}
+
+header {
+    background:#0d210f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background:#333;
+}
+
+nav a {
+    color:white;
+    padding:14px;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background:#4CAF50;
+}
+
+.container {
+    padding:20px;
+}
+
+.cards {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card {
+    flex:1;
+    min-width:250px;
+    background:#f4f4f4;
+    padding:15px;
+    border-radius:10px;
+}
+
+.card img {
+    width:110%;
+    border-radius:10px;
+}
+
+.video-section {
+    margin-top:30px;
+    text-align:center;
+}
+
+video {
+    width:50%;
+    max-width:800px;
+    border-radius:10px;
+}
+
+@media(max-width:768px){
+    .cards {
+        flex-direction:column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Activities in Rwanda</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="destinations.html">Destinations</a>
+<a href="activities.html">Activities</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Top Activities</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="gorilla-trekking.jpg">
+<h3>Gorilla Trekking</h3>
+<p>Get close to Rwanda’s famous mountain gorillas.</p>
+</div>
+
+<div class="card">
+<img src="Mount-Jali.jpg">
+<h3>Hiking Adventures</h3>
+<p>Explore mountains, forests, and scenic landscapes.</p>
+</div>
+
+<div class="card">
+<img src="lake-kivu-day-tour-rwanda.gif">
+<h3>Boat Tours</h3>
+<p>Enjoy relaxing rides on Lake Kivu.</p>
+</div>
+<div class="card">
+<img src="paintball copy.jpg">
+<h3>PAINTBALL</h3>
+<p>Paintball is perfect for adventure lovers! It helps improve <span class="highlight">teamwork, communication, 
+        and quick decision-making</span>. Whether you're playing with friends or as part of a group activity, 
+        it guarantees fun and unforgettable moments.</p>
+</div>
+<div class="card">
+<img src="HORSERIDING.avif">
+<h3>HORSE RIDING</h3>
+<p>Come and enjoy the thrill of horse riding, where adventure, relaxation, and beautiful nature come together for an unforgettable experience.</p>
+</div>
+<div class="card">
+<img src="ZIPLINE.jpg">
+<h3>ZIPLINING</h3>
+<p>Come and experience the excitement of ziplining, soaring above breathtaking landscapes for an unforgettable adventure.</p>
+</div>
+
+</div>
+
+<div class="video-section">
+<h2>Experience Rwanda</h2>
+
+<video autoplay muted loop controls>
+    <source src="LoveTik.com - 7463425818660785414-bytevc1_540p_858238-1.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>Watch the beauty of Rwanda tourism in action.</p>
+</div>
+
+</div>
+
+</body>
+</html>
